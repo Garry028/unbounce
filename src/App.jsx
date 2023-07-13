@@ -1,8 +1,8 @@
-import LandingPage from "./components/LandingPage"
+import Layout from "./components/Layout"
 function App() {
   return (
     <div className=''>
-      <LandingPage />
+      <Layout />
     </div>
   )
 }
