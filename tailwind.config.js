@@ -6,6 +6,18 @@ export default {
   ],
   theme: {
     extend: {},
+    // customized colors
+    colors: {
+      'primary': "#152f2e",
+      'light': "#00c2c5",
+      'extralight': "#e8fbfb",
+      "white":"#fff"
+    },
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
+
   },
   plugins: [],
 }

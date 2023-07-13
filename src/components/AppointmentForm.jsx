@@ -9,8 +9,6 @@ const AppointmentForm = () => {
 
     const handleFormSubmit = (e) => {
         e.preventDefault();
-        // Perform form submission or data handling here
-        // You can access the form field values using the state variables (name, lastName, email, phone, appointmentType)
     };
 
     return (
@@ -64,7 +62,7 @@ const AppointmentForm = () => {
                 </select>
             </div>
             <div className="text-center">
-                <button type="submit" className="px-4 w-full text-lg bg-teal-400 py-2  text-white rounded">
+                <button type="submit" className="px-4 w-full text-lg bg-light py-2  text-white rounded">
                     Schedule Now
                 </button>
             </div>

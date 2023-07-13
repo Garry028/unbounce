@@ -8,17 +8,15 @@ const LandingPage = () => {
             style={{ backgroundImage: `url(${img})` }}
         >
             <div className="text-white px-8 w-full mx-auto md:container md:w-[65%] ">
-                <div className="flex items-center justify-start"> {/* Center the logo on small screens and align to start on medium screens and above */}
+                <div className="flex items-center justify-start">
                     <img src={logo} alt="Logo" className="h-44 w-44 ml-2" />
-                    {/* Replace 'h-32' and 'w-32' with your actual logo size */}
                 </div>
-                <h1 className="text-4xl md:text-7xl font-bold mt-8 mb-4 max-w-4xl text-teal-950"> {/* Decrease font size on small screens */}
-                    Describe the <br />value of booking <br/> an appointment
+                <h1 className="text-4xl md:text-7xl font-bold mt-8 mb-4 max-w-4xl text-primary">
+                    Describe the <br />value of booking <br /> an appointment
                 </h1>
-                <p className="text-lg md:text-2xl mb-8 max-w-3xl text-teal-800"> {/* Decrease font size on small screens */}
-                    No need to get clever. Tell people exactly what <br /> youre offering, then use this space to <br/>  communicate your key value proposition.
+                <p className="text-lg md:text-2xl mb-8 max-w-3xl text-primary">
+                    No need to get clever. Tell people exactly what <br /> your&rsquo;e offering, then use this space to <br />  communicate your key value proposition.
                 </p>
-                {/* Add more content or components as needed */}
             </div>
         </div>
     );
