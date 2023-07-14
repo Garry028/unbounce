@@ -6,9 +6,9 @@ import f3 from "../assets/F3.jpg";
 const FeatureBox = ({ src, name, desc }) => {
     return (
         <div className="w-full">
-            <img src={src} alt="features" className="w-full h-auto" />
-            <p className="font-semibold text-lg mt-5 text-primary">{name}</p>
-            <p className="font-normal text-sm text-primary w-[80%] mt-2">{desc}</p>
+            <img src={src} alt="features" className="w-full h-auto cursor-pointer" />
+            <p className="font-semibold text-lg mt-5 text-primary cursor-pointer">{name}</p>
+            <p className="font-normal text-sm text-primary w-[80%] mt-2 cursor-pointer">{desc}</p>
         </div>
     )
 }

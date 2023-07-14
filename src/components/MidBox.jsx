@@ -1,5 +1,5 @@
 import video from '../assets/video (360p).mp4';
-
+import VideoPlayer from './VideoPlayer';
 function MidBox() {
     return (
         <div className="h-[646px] bg-extralight w-full mb-10">
@@ -16,7 +16,8 @@ function MidBox() {
                 </span>
             </div>
             <div className="flex justify-center items-center h-full  ">
-                <video className="w-full h-full max-w-4xl" src={video} controls />
+                {/* <video className="w-full h-full max-w-4xl" src={video} controls /> */}
+                <VideoPlayer video={video} />
             </div>
         </div>
     );
